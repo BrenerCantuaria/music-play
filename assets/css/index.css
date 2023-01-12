@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn-play{
+    width: 20px;
+}
+
+.duration {
+    width: 300px;
+    margin-top: 1em;
+}
+
+.barra {
+    border: 1px solid rgb(103, 103, 103);
+    width: 300px;
+    height: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+    background-color: rgb(241, 240, 244);
+}
+
+.ponto {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(103, 103, 103);
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo {
+    font-weight: 600;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.buttons{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+.next,.previous{
+    width: 20px;
+}
+.play,.pause{
+    width: 40px;
+}
+.pause{
+    display: none;
+}
